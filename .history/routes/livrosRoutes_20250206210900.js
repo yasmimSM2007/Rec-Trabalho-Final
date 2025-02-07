@@ -1,5 +1,5 @@
 import express from 'express';
-import { addLivro, buscarLivro, buscarLivroPorId, atualizarLivro, deleteLivro } from '../controllers/livrosControllers.js';
+import { addLivro, atualizarLivro, buscarLivro, buscarLivroPorId, deleteLivro } from '../controllers/livrosControllers.js';
 
 const livrosRouter = express.Router();
 
